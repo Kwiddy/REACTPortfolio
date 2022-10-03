@@ -1,12 +1,17 @@
 
 import profile_pic from '../img/profile_pic.jpg'
 import ProfileCircle from './ProfileCircle';
+import CircleRipple from './CircleRipple';
 
 function MainHeader() {
     return (
         <header className="App-header">
+            {/* <CircleRipple />  */}
             <ProfileCircle profile_img={profile_pic} />
-            Kai Widdeson
+            <br />
+            <div>
+                Kai Widdeson
+            </div>
         </header>
     );
 }

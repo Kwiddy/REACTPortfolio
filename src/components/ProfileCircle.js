@@ -1,7 +1,20 @@
 
+import { motion, AnimatePresence } from "framer-motion"
+
 function ProfileCircle(props) {
     return (
-        <img src={props.profile_img} alt="Kai Widdeson 1" className="profile-circle"/>
+        <div>
+            <AnimatePresence>
+                <motion.img
+                key={props.profile_img}
+                src={props.profile_img}
+                className="profile-circle-large"
+                initial={{ x: 300, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: -300, opacity: 0 }}
+                />
+            </AnimatePresence>
+        </div>
     );
 }
 
