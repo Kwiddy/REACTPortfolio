@@ -1,7 +1,7 @@
 function FootButton() {
     return (
         <div className="foot-button">
-            Here
+            <i class="arrow down"></i>
         </div>
     );
 }

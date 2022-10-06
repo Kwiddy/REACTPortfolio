@@ -9,7 +9,7 @@ function MainHeader() {
         <header className="App-header">
             {/* <CircleRipple />  */}
             <ProfileCircle profile_img={profile_pic} />
-            <br />
+            <br /> <br /> <br />
             <div>
                 Kai Widdeson
             </div>

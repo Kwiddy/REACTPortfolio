@@ -24,6 +24,7 @@ $primary-color: #282C34;
   background-color: $primary-color;
   min-height: 100vh;
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -71,4 +72,21 @@ $primary-color: #282C34;
   position: absolute;
   border-style: solid;
   text-align: center;
+}
+
+.foot-button {
+  position: absolute;
+  bottom: 2VH;
+}
+
+.arrow {
+  border: solid grey;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 10px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
