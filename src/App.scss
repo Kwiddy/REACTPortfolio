@@ -86,7 +86,17 @@ $primary-color: #282C34;
   padding: 10px;
 }
 
+#name-header {
+  padding-top: 5vh;
+  padding-bottom: 1vh;
+  font-size: xx-large;
+}
+
 .down {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+}
+
+.Typewriter {
+  color: lightgrey;
 }
