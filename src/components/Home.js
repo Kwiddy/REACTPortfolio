@@ -12,7 +12,7 @@ function Home() {
       <p> some demo text </p>
       <p> some demo text </p>
       <p> some demo text </p>
-      <p> some demo text </p>
+      <br />
     </div>
   );
 }
