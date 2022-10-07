@@ -1,5 +1,10 @@
 import barclayslogo from "./img/logos/barclays.png";
 
+// portfolio thumbnails
+import ffmsvdthumb from "./img/thumbs/ffmsvdthumb.jpeg";
+import gtathumb from "./img/thumbs/gtathumb.jpeg";
+import cgtthumb from "./img/thumbs/CGThumb.jpg";
+
 export const originalPortfolioLink = "https://kai-widdeson.com/"
 
 export const headliners = 
@@ -37,7 +42,7 @@ export const testimonials =
 
 export const portfolios =
     [
-        ["a", "FFM-SVD: A Novel Approach for Personality-Aware Recommender Systems", "Description"],
-        ["d", "GTA Movie-Human Style Trasfer", "Description"],
-        ["g", "h", "Description"],
+        [ffmsvdthumb, "FFM-SVD: A Novel Approach for Personality-Aware Recommender Systems", "Master's Project (89%), Accepted to AICCSA 2022 Conference, Abu Dhabi", "https://kai-widdeson.com/ffmsvd.html"],
+        [gtathumb, "GTA Movie-Human Style Trasfer", "Utilised a Mask-RCNN, OpenPose, and CycleGANs", "https://kai-widdeson.com/GTA.html"],
+        [cgtthumb, "WebGL Living Room", "An interactive living room created with WebGL", "https://kai-widdeson.com/Portfolio/CG/public/index.html"],
     ]
