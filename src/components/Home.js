@@ -1,13 +1,23 @@
 import '../App.scss';
 
-import MainHeader from '../components/MainHeader';
+import MainHeader from './MainHeader';
 import AboutMe from './AboutMe';
+import Contact from './Contact';
+import Portfolio from './Portfolio';
+import Education from './Education';
+import Skills from './Skills';
+import Experience from './Experience';
 
 function Home() {
   return (
     <div>
       <MainHeader />
       <AboutMe />
+      <Education />
+      <Experience />
+      <Skills />
+      <Portfolio />
+      <Contact />
       <br />
     </div>
   );
