@@ -40,6 +40,20 @@ export const skills =
         C: 15
     }
 
+    // 0: Desired Job, 1: Qualificiation, 2: Fields of Interest, 3: Interest1, 4: Interest2, 5: link to interest2, 6: Interest3
+export const aboutme = 
+    [
+        [
+            "Software Developer 💻 / Front-End Engineer 👨‍💻", 
+            "1st Class MEng Computer Science @ Durham University 🏰",
+            "Front-end development, Data analytics, Machine learning, Recommender systems, and Software development",
+            "100km Ultramarathon Runner 🏃‍♂️",
+            "Self-Published Fiction Author 📖📚 and Newsletter writer 🧾",
+            "https://www.amazon.co.uk/Kings-Tribe-Kai-Widdeson/dp/B086G11WMN/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1584809815&sr=1-3",
+            "(Barely) Surfing 🏄‍♂️"
+        ]
+    ]
+
 export const testimonials = 
     [
         ["Krishna Vinjamuri", barclayslogo, "Barclays CTO of Cards & Payments and Connected Platforms", "Excellent work in defining and implementing a number of improvements to the Jira model and generating F2B automated reports - releasing capacity for the teams. Thank you Kai for your outstanding contribution in delivering these improvements for the team"],
