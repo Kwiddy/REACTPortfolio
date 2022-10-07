@@ -4,6 +4,8 @@ import barclayslogo from "./img/logos/barclays.png";
 import ffmsvdthumb from "./img/thumbs/ffmsvdthumb.jpeg";
 import gtathumb from "./img/thumbs/gtathumb.jpeg";
 import cgtthumb from "./img/thumbs/CGThumb.jpg";
+import gravthumb from "./img/thumbs/gravthumb.jpg";
+import peggy from "./img/thumbs/peggy.jpg"
 
 // education logos
 import durham from "./img/logos/durham.jpg"
@@ -49,6 +51,8 @@ export const portfolios =
         [ffmsvdthumb, "FFM-SVD: A Novel Approach for Personality-Aware Recommender Systems", "Master's Project (89%), Accepted to AICCSA 2022 Conference, Abu Dhabi", "https://kai-widdeson.com/ffmsvd.html"],
         [gtathumb, "GTA Movie-Human Style Trasfer", "Utilised a Mask-RCNN, OpenPose, and CycleGANs", "https://kai-widdeson.com/GTA.html"],
         [cgtthumb, "WebGL Living Room", "An interactive living room created with WebGL", "https://kai-widdeson.com/Portfolio/CG/public/index.html"],
+        [gravthumb, "Gravitar Reinforcement Learning", "A (Double) Duelling DWN with multistep learning, noisy layers, prioritised experience replay with a target network, and loss of life penalty", "https://kai-widdeson.com/Gravitar.html"],
+        [peggy, "DCGAN Pegasus Generator", "A custom DCGAN operating on CIFAR-10 and STL-10 datasets to generate images of Pegasi by combining horses, planes, and birds", "https://kai-widdeson.com/Pegasus.html"]
     ]
 
 export const instituions =
