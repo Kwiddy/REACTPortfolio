@@ -2,13 +2,18 @@ import Card from "./Card"
 import { testimonials } from "../contents";
 
 const TestimonialContent = () => {
-    const testimonialsItems = testimonials.map((quote) => 
-    <li className="invisilist"> <b> {quote[0] + " - " + quote[1]} </b> <br /> <i>{"'" + quote[2] + "'"}</i> </li>
+    const testimonialsItems = testimonials.map((quote) =>
+    <tr>
+        <td> <img src={quote[1]} className="testilogo" alt="testimonial-logo"></img></td>
+        <td> <b> {quote[0] + " - " + quote[2]} </b> <br /> <i>{"'" + quote[3] + "'"}</i> </td>
+    </tr> 
     );
     return(
-        <ul>
-            {testimonialsItems}
-        </ul>
+        <table id="contact-table">
+            <tbody>
+                {testimonialsItems}
+            </tbody>
+        </table>
     );
 }
 

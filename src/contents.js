@@ -1,3 +1,5 @@
+import barclayslogo from "./img/logos/barclays.png";
+
 export const originalPortfolioLink = "https://kai-widdeson.com/"
 
 export const headliners = 
@@ -29,13 +31,13 @@ export const skills =
 
 export const testimonials = 
     [
-        ["Krishna Vinjamuri", "Barclays CTO of Cards & Payments and Connected Platforms", "Excellent work in defining and implementing a number of improvements to the Jira model and generating F2B automated reports - releasing capacity for the teams. Thank you Kai for your outstanding contribution in delivering these improvements for the team"],
-        ["Tung Nhon Du", "Barclays Lead UI Developer", "Kai is refreshingly curious about technology and is always keen to learn new approaches. I am sure his positive attitude will be a great advantage in his next engagements. He can be extremely proud of his achievements at Barclays. I'd like to thank Kai for his great effort and wish him all the best for the future."],
+        ["Krishna Vinjamuri", barclayslogo, "Barclays CTO of Cards & Payments and Connected Platforms", "Excellent work in defining and implementing a number of improvements to the Jira model and generating F2B automated reports - releasing capacity for the teams. Thank you Kai for your outstanding contribution in delivering these improvements for the team"],
+        ["Tung Nhon Du", barclayslogo, "Barclays Lead UI Developer", "Kai is refreshingly curious about technology and is always keen to learn new approaches. I am sure his positive attitude will be a great advantage in his next engagements. He can be extremely proud of his achievements at Barclays. I'd like to thank Kai for his great effort and wish him all the best for the future."],
     ]
 
 export const portfolios =
     [
-        ["a", "b", "c"],
-        ["d", "e", "f"],
-        ["g", "h", "i"],
+        ["a", "FFM-SVD: A Novel Approach for Personality-Aware Recommender Systems", "Description"],
+        ["d", "GTA Movie-Human Style Trasfer", "Description"],
+        ["g", "h", "Description"],
     ]
