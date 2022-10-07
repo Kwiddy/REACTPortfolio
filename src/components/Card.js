@@ -1,6 +1,13 @@
-function Card() {
+function Card(props) {
     return(
-        <div>Hello</div>
+        <div className="card">
+            <div className="card-title">
+                {props.title}
+            </div>
+            <div className="card-content">
+                {props.content}
+            </div>
+        </div>
     );
 }
 

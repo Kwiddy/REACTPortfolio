@@ -2,7 +2,9 @@ import Card from "./Card"
 
 function AboutMe() {
     return(
-        <Card />
+        <div className="aboutme">
+            <Card title="About Me" content="Some stuff"/>
+        </div>
     )
 }
 
