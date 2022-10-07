@@ -9,7 +9,7 @@ const About = () => {
                 <li> <b> Field of Interest: </b> Front-end development, Data analytics, Machine learning, Recommender systems, and Software development</li>
             </ul>
             <div>
-                I have many interests away from the screens:
+                Here are a few of my interests away from the screens:
                 <ul>
                     <li> 100km Ultramarathon Runner 🏃‍♂️</li>
                     <li> Self-Published Fiction Author <a href="#">(Pss... click here)</a> 📖📚 and Newsletter writer 🧾</li>
