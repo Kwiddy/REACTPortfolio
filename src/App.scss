@@ -1,5 +1,6 @@
 $primary-color: #282C34;
 $blue-highlight: #002b80;
+$link-highlight: #0041c4;
 $secondary-background: #282C34;
 
 .body {
@@ -204,5 +205,11 @@ $secondary-background: #282C34;
 
 a {
   color: black;
+  font-weight: bold;
   text-decoration: wavy;
+  padding: 15px;
+}
+
+a:hover {
+  color: $link-highlight;
 }
