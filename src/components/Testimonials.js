@@ -1,10 +1,14 @@
 import Card from "./Card"
+import { testimonials } from "../contents";
 
 const TestimonialContent = () => {
+    const testimonialsItems = testimonials.map((quote) => 
+    <li className="invisilist"> <b> {quote[0] + " - " + quote[1]} </b> <br /> <i>{"'" + quote[2] + "'"}</i> </li>
+    );
     return(
-        <div>
-            hi
-        </div>
+        <ul>
+            {testimonialsItems}
+        </ul>
     );
 }
 
