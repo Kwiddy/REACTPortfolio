@@ -5,22 +5,24 @@ import linkedin from '../img/icons/linkedin.png'
 
 import { socials } from "../contents"
 
+const mailto = "mailto:" + socials.Mail
+
 const Contactcontents = () => {
     return(
         <div id="contact-contents">
-            <table>
+            <table id="contact-table">
                 <tbody>
                     <tr>
                         <td><img src={mail} height="50px" alt="mail-logo"></img></td>
-                        <td>{socials.Mail}</td>
+                        <td><a href={mailto}>{socials.Mail}</a></td>
                     </tr>
                     <tr>
                         <td><img src={linkedin} height="50px" alt="linkedin-logo"></img></td>
-                        <td>{socials.LinkedIn}</td>
+                        <td><a href={socials.LinkedIn}>{socials.LinkedIn}</a></td>
                     </tr>
                     <tr>
                         <td><img src={github} height="50px" alt="github-logo"></img></td>
-                        <td>{socials.Github}</td>
+                        <td><a href={socials.Github}>{socials.Github}</a></td>
                     </tr>
                 </tbody>
             </table>
