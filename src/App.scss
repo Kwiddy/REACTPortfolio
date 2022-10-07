@@ -4,7 +4,7 @@ $link-highlight: #0041c4;
 $secondary-background: #282C34;
 
 .body {
-  background-color: reds;
+  background-color: red;
 }
 
 .App {
@@ -216,8 +216,9 @@ a:hover {
 
 .navbar {
   color: white;
+  outline: white;
   padding: 10px;
   top: 0;
-  right: 0;
+  left: 0;
   position: absolute;
 }

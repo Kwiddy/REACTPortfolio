@@ -1,13 +1,24 @@
 import Button from '@mui/material/Button';
 
-function changeTheme() {
-    console.log("hello");
+import {originalPortfolioLink} from '../contents';
+
+function goHome() {
+    window.location.href = originalPortfolioLink;
 }
 
 function NavBar() {
     return(
         <div className="navbar">
-            <Button variant="outlined" onClick={changeTheme}> Change Theme </Button>
+            <Button
+                style={{
+                    color: "white",
+                    borderColor: "white"
+                }}
+                variant="outlined"
+                onClick={goHome}
+                >
+                See Full Portfolio
+            </Button>
         </div>
     )
 }

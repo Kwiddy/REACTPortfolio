@@ -1,3 +1,5 @@
+export const originalPortfolioLink = "https://kai-widdeson.com/"
+
 export const headliners = 
     ["<1st Class MEng Durham Computer Scientist /", 
     "<100km Ultramarathon Runner /",
@@ -12,3 +14,4 @@ export const socials =
         Github: "https://github.com/Kwiddy",
         LinkedIn: "https://www.linkedin.com/in/kai-widdeson/"
     }
+
