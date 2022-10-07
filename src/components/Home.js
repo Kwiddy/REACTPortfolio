@@ -1,17 +1,13 @@
 import '../App.scss';
 
 import MainHeader from '../components/MainHeader';
+import AboutMe from './AboutMe';
 
 function Home() {
   return (
     <div>
       <MainHeader />
-      <p> some demo text </p>
-      <p> some demo text </p>
-      <p> some demo text </p>
-      <p> some demo text </p>
-      <p> some demo text </p>
-      <p> some demo text </p>
+      <AboutMe />
       <br />
     </div>
   );
