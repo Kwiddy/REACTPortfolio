@@ -5,6 +5,10 @@ import ffmsvdthumb from "./img/thumbs/ffmsvdthumb.jpeg";
 import gtathumb from "./img/thumbs/gtathumb.jpeg";
 import cgtthumb from "./img/thumbs/CGThumb.jpg";
 
+// education logos
+import durham from "./img/logos/durham.jpg"
+import hartismere from "./img/logos/hartismere.png"
+
 export const originalPortfolioLink = "https://kai-widdeson.com/"
 
 export const headliners = 
@@ -24,14 +28,14 @@ export const socials =
 
 export const skills = 
     {
-        Python: 90,
+        Python: 95,
         HTMLCSS: 90,
-        React: 30,
-        Javascript: 30,
-        SQL: 20,
-        Java: 10,
-        CSharp: 10,
-        C: 5
+        React: 50,
+        Javascript: 50,
+        SQL: 35,
+        Java: 30,
+        CSharp: 30,
+        C: 15
     }
 
 export const testimonials = 
@@ -45,4 +49,10 @@ export const portfolios =
         [ffmsvdthumb, "FFM-SVD: A Novel Approach for Personality-Aware Recommender Systems", "Master's Project (89%), Accepted to AICCSA 2022 Conference, Abu Dhabi", "https://kai-widdeson.com/ffmsvd.html"],
         [gtathumb, "GTA Movie-Human Style Trasfer", "Utilised a Mask-RCNN, OpenPose, and CycleGANs", "https://kai-widdeson.com/GTA.html"],
         [cgtthumb, "WebGL Living Room", "An interactive living room created with WebGL", "https://kai-widdeson.com/Portfolio/CG/public/index.html"],
+    ]
+
+export const instituions =
+    [
+        [durham, "Durham University (Collingwood College)", "1st Class (78%)", "MEng Computer Science - Software Engineering, Networks and Systems, Software Methodologies, Theory of Computation, Computational Complexity, Bioinformatics, Recommender Systems, Parallel Scientific Computing, Algorithmic Game Theory, Codes and Complexity, Deep Learning and Reinforcement Learning, Computational Modelling in the Humanities and Social Sciences, Multimedia and Game Development, Programming Paradigms, Mathematics for Computer Science, Algorithms and Data Structures, Computational Thinking, Computer Systems, Programming.", "Master's Project accepted to the AICCSA 2022 Conference, Abu Dhabi, 2nd and 4th Year Awards for Outstanding Achievement"],
+        [hartismere, "Hartismere High School & Sixth Form", "AAA(A) [A-Level] | 8A* 3A 2B [GCSE]", "Further Mathematics, Mathematics, Physics, (Computing)", "Head Boy, A* EPQ in Quantum Cryptography, Head of Yearbook and Prom Committees, Represented in 5 sports"],
     ]
