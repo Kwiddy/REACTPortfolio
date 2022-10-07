@@ -4,7 +4,7 @@ const About = () => {
     return(
         <div>
             <ul>
-                <li> <b>Job: </b> Software Developer 💻 / Front-End Engineer 👨‍💻 </li>
+                <li> <b> (Desired) Job: </b> Software Developer 💻 / Front-End Engineer 👨‍💻 </li>
                 <li> <b> Qualifications: </b> 1st Class MEng Computer Science @ Durham University 🏰</li>
                 <li> <b> Field of Interest: </b> Front-end development, Data analytics, Machine learning, Recommender systems, and Software development</li>
             </ul>
