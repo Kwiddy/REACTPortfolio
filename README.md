@@ -72,3 +72,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 #### Attributions
 The favicon for this site was obtained under the Flaticon License (Free for persona and commerical purpose with attribution) from Bharat Icons at (https://www.flaticon.com/free-icon/code_7838457?term=web%20development&page=1&position=37&page=1&position=37&related_id=7838457&origin=tag)
+
+The Github and LinkedIn Icons for this site was obtained under the Flaticon License (Free for persona and commerical purpose with attribution) from Freepik at (https://www.flaticon.com/free-icon/github_1051326?term=github&page=1&position=4&page=1&position=4&related_id=1051326&origin=search) and (https://www.flaticon.com/free-icon/linkedin_1384014?term=linkedin&page=1&position=4&page=1&position=4&related_id=1384014&origin=search) respectively. Similarly, the mail icon was obtained under the same license from Uniconlabs at (https://www.flaticon.com/free-icon/mail_3293282?term=email&page=1&position=39&page=1&position=39&related_id=3293282).

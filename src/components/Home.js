@@ -10,7 +10,7 @@ import Experience from './Experience';
 
 function Home() {
   return (
-    <div>
+    <div className='home'>
       <MainHeader />
       <AboutMe />
       <Education />

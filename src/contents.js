@@ -5,3 +5,10 @@ export const headliners =
     "<Self-Published Fiction Author /",
     "<Newsletter Creator /"
     ]
+
+export const socials =
+    {
+        Mail: "kwiddeson4@gmail.com",
+        Github: "https://github.com/Kwiddy",
+        LinkedIn: "https://www.linkedin.com/in/kai-widdeson/"
+    }
