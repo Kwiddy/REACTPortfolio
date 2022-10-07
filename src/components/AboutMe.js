@@ -34,6 +34,7 @@ const About = () => {
                 <li> {item[3]}</li>
                 <li> {item[4]} <a href={item[5]}>(Pss... click here)</a></li>
                 <li> {item[6]}</li>
+                <li> {item[7]}</li>
             </ul>
         </div>
     </div>

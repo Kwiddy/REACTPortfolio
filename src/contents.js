@@ -45,7 +45,7 @@ export const skills =
         C: 15
     }
 
-    // 0: Desired Job, 1: Qualificiation, 2: Fields of Interest, 3: Interest1, 4: Interest2, 5: link to interest2, 6: Interest3
+    // 0: Desired Job, 1: Qualificiation, 2: Fields of Interest, 3: Interest1, 4: Interest2, 5: link to interest2, 6: Interest3, 7: Interest4
 export const aboutme = 
     [
         [
@@ -55,6 +55,7 @@ export const aboutme =
             "100km Ultramarathon Runner 🏃‍♂️",
             "Self-Published Fiction Author 📖📚 and Newsletter writer 🧾",
             "https://www.amazon.co.uk/Kings-Tribe-Kai-Widdeson/dp/B086G11WMN/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1584809815&sr=1-3",
+            "Collingwood Pool 'A' Team Captain & College Captain (6 Teams, 50+ Players) 🎱",
             "(Barely) Surfing 🏄‍♂️"
         ]
     ]
