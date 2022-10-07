@@ -5,11 +5,16 @@ import ffmsvdthumb from "./img/thumbs/ffmsvdthumb.jpeg";
 import gtathumb from "./img/thumbs/gtathumb.jpeg";
 import cgtthumb from "./img/thumbs/CGThumb.jpg";
 import gravthumb from "./img/thumbs/gravthumb.jpg";
-import peggy from "./img/thumbs/peggy.jpg"
+import peggy from "./img/thumbs/peggy.jpg";
 
 // education logos
-import durham from "./img/logos/durham.jpg"
-import hartismere from "./img/logos/hartismere.png"
+import durham from "./img/logos/durham.jpg";
+import hartismere from "./img/logos/hartismere.png";
+
+// experience logos
+import barclays from "./img/logos/barclays.png";
+import dreamheritage from "./img/logos/dreamheritage.jpg";
+import geckoboard from "./img/logos/geckoboard.png";
 
 export const originalPortfolioLink = "https://kai-widdeson.com/"
 
@@ -73,4 +78,37 @@ export const instituions =
     [
         [durham, "Durham University (Collingwood College)", "1st Class (78%)", "MEng Computer Science - Software Engineering, Networks and Systems, Software Methodologies, Theory of Computation, Computational Complexity, Bioinformatics, Recommender Systems, Parallel Scientific Computing, Algorithmic Game Theory, Codes and Complexity, Deep Learning and Reinforcement Learning, Computational Modelling in the Humanities and Social Sciences, Multimedia and Game Development, Programming Paradigms, Mathematics for Computer Science, Algorithms and Data Structures, Computational Thinking, Computer Systems, Programming.", "Master's Project accepted to the AICCSA 2022 Conference, Abu Dhabi, 2nd and 4th Year Awards for Outstanding Achievement"],
         [hartismere, "Hartismere High School & Sixth Form", "AAA(A) [A-Level] | 8A* 3A 2B [GCSE]", "Further Mathematics, Mathematics, Physics, (Computing)", "Head Boy, A* EPQ in Quantum Cryptography, Head of Yearbook and Prom Committees, Represented in 5 sports"],
+    ]
+
+export const jobs =
+    [
+        [barclays, "Developer Graduate - Barclays", "August 2022 - Present", [
+            "Constructing a custom API to integrate Jira Xray and Specflow",
+            "Currently working on developing Hedge Accounting systems for the bank using C# and .NET. ",
+            "Spearheading behaviour-driven development",
+        ]],
+
+        [barclays, "Summer CTO Developer Intern - Barclays", "Summer 2021", [
+            "Developed report automation processes which improved data quality and team efficiency using JIRA Kanban rules and domain model documentation. Presentations to the CTO Leadership led to a formal recognition for Excellence. Received all maximum performance gradings in final review",
+            "Created an automated metrics dashboard to allow for easier and more accurate progress tracking and reporting",
+            "Developed architecture diagrams for management visualization",
+        ]],
+
+        [barclays, "Summer Front-End Developer Intern - Barclays", "Summer 2020", [
+            "Successfully completed a front-end Barclays iPortal website using React and SCSS",
+            "Used a GitFlow methodology with extensive testing and best practices for components, enabling compatibility with existing systems",
+            "Received all maximum performance gradings in final review",
+        ]],
+
+        [dreamheritage, "Student Project - Dream Heritage", "Winter 2019 - Spring 2020", [
+            "This was a University group project where we were the only group whose client presentation was added to the department YouTube channel as a demonstration of excellence",
+            "Developed the front-end of the Beaurepaire Priory website",
+            "Wrote a complete user manual for the final deliverable to ensure value to the client and allow for future developments",
+        ]],
+
+        [geckoboard, "Student Work Experience - Geckoboard", "Summer 2015", [
+            "Student work experience which involved developing the Geckoboard site to include tutorials for improved customer support",
+            "Assisted finance management with generating spending reports",
+            "Attended daily scrum meetings and was introduced to Agile methodologies",
+        ]],
     ]

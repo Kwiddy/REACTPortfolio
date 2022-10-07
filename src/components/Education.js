@@ -6,7 +6,7 @@ const Insitutions = () => {
     const eduItems = instituions.map((quote) => 
     <tr>
         <td> <img src={quote[0]} className="testilogo" alt="portfolio-thumb"></img> </td>
-        <td> <b> {quote[1]} </b> <br /> <b>Grade: </b> {quote[2]} <br /> <b>Subjects: </b> <i> {quote[3]} </i> <br /> <b>Notable achievements: </b> {quote[4]}</td>
+        <td> <b> {quote[1]} </b> <br /> <b>Grade: </b> {quote[2]} <br /> <b>Subjects: </b> <i> {quote[3]} </i> <br /><b>Notable achievements: </b> {quote[4]} <br /> </td>
     </tr>
     );
     return(
