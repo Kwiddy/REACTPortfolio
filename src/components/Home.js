@@ -7,6 +7,7 @@ import Portfolio from './Portfolio';
 import Education from './Education';
 import Skills from './Skills';
 import Experience from './Experience';
+import Testimonials from './Testimonials';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Experience />
       <Skills />
       <Portfolio />
+      <Testimonials />
       <Contact />
       <br />
     </div>
