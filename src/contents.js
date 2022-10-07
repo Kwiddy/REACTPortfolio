@@ -15,3 +15,14 @@ export const socials =
         LinkedIn: "https://www.linkedin.com/in/kai-widdeson/"
     }
 
+export const skills = 
+    {
+        Python: 90,
+        HTMLCSS: 90,
+        React: 30,
+        Javascript: 30,
+        SQL: 20,
+        Java: 10,
+        CSharp: 10,
+        C: 5
+    }
