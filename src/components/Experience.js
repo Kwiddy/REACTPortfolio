@@ -18,11 +18,16 @@ const Jobs = () => {
     </tr>
     );
     return(
-        <table id="contact-table">
-            <tbody>
-                {jobPlaces}
-            </tbody>
-        </table>
+        <div>
+            <table id="contact-table">
+                <tbody>
+                    {jobPlaces}
+                </tbody>
+            </table>
+            <div>
+                <i>In addition to the relevant professional experience above, I have also been a: Website developer volunteer, manual labourer, cafe front-of-house, kitchen porter, college receptionist, entrance exam volunteer, and private tutor.</i>
+            </div>
+        </div>
     );
 }
 
