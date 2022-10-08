@@ -3,13 +3,13 @@ import {motion} from 'framer-motion';
 
 function Card(props) {
     return(
-        <AnimatePresence>
-            <motion.div
-                key="modalf"
-                initial={{ x: 300, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                exit={{ x: -300, opacity: 0 }}
-            />
+        // <AnimatePresence>
+        //     <motion.div
+        //         key="modal"
+        //         initial={{ x: 300, opacity: 0 }}
+        //         animate={{ x: 0, opacity: 1 }}
+        //         exit={{ x: -300, opacity: 0 }}
+        //     />
             <div className="card">
                 <div className="card-title">
                     {props.title}
@@ -18,7 +18,7 @@ function Card(props) {
                     {props.content}
                 </div>
             </div>
-        </AnimatePresence>
+        // </AnimatePresence>
     );
 }
 
